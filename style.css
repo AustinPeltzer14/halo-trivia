@@ -3,6 +3,12 @@ body {
   background-color: #343a40;
   color: #fff;
   text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
 }
 
 h1 {
