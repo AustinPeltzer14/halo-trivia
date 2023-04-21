@@ -80,7 +80,7 @@ function checkAnswer(event) {
   //hiding input and submit button
   answerForm.style.display = "none";
   //result container pulling if or else statements using result-text depending if answer was correct or incorrect. Also pulling up container to show next button.
-  resultContainer.style.display = "block";
+  resultContainer.style.display = "inline-grid";
 }
 
 function nextQuestion() {
