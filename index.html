@@ -5,18 +5,45 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>Halo Franchise Trivia Questionaire</h1>
-    <div id="question-container">
-      <p id="question-text"></p>
-      <form id="answer-form">
-        <input type="text" id="answer-input" placeholder="Enter your answer here..." autocomplete="off">
-        <button type="submit" id="submit-button">Submit</button>
-      </form>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">A Website For The Halo Community</a>
+        </div>
+        <div class="hamburger-menu" id="menu-trigger">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/hamburger.svg" alt="Hamburger icon">
     </div>
-    <div id="result-container">
-      <p id="result-text"></p>
-      <button type="button" id="next-button">Next Question</button>
+        <ul class="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="https://www.halowaypoint.com/">Your Profile</a></li>
+          <li><a href="https://www.ign.com/articles/halo-games-in-order">More Games</a></li>
+          <li><a href="https://support.halowaypoint.com/hc/en-us">AI Support</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="body-container">
+      <h1>Halo Franchise Trivia Questionaire</h1>
+      <div id="question-container">
+        <p id="question-text"></p>
+        <form id="answer-form">
+          <input type="text" id="answer-input" placeholder="Enter your answer here..." autocomplete="off">
+          <button type="submit" id="submit-button">Submit</button>
+        </form>
+      </div>
+      <div id="result-container">
+        <p id="result-text"></p>
+        <button type="button" id="next-button">Next Question</button>
+      </div>
     </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>&copy; 2023 Bungie Halo Franchise</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

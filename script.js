@@ -10,11 +10,11 @@ const questions = [
     answer: "Covenant"
   },
   {
-    question: "What is the one word religious nickname the Covenant call Master Chief?",
-    answer: "Demon"
+    question: "In Halo Combat evovled what is the original color of Master Chief?",
+    answer: "Sage"
   },
   {
-    question: "What species within the Covenant are from a race of worms?",
+    question: "What species within the Covenant derive from a race of worms?",
     answer: "Hunters"
   },
   {
@@ -34,11 +34,11 @@ const questions = [
     answer: "Beam Rifle"
   },
   {
-    question: "What is the name of the main antagonist in Halo 3?",
-    answer: "The Prophet"
+    question: "What is the first mission on Halo CE campaign?",
+    answer: "Pillar of Autumn"
   },
   {
-    question: "What is the name of the Flood leader in Halo 3?",
+    question: "Who is the leader of The Flood?",
     answer: "Gravemind"
   }
 ];
@@ -88,6 +88,7 @@ function nextQuestion() {
   currentQuestionIndex++;
   //.length tells you how much is in an array 10 total questions.
   //currentQuestionIndex is what question you are on and if it is above 10 means test is over and show results
+  
   if (currentQuestionIndex >= questions.length) {
     showResults();
   } else {
@@ -106,7 +107,6 @@ function showResults() {
   resultContainer.style.display = "none";
   endContainer.style.display = "block";
 }
-
 showQuestion();
 
 submitButton.addEventListener("click", checkAnswer);
